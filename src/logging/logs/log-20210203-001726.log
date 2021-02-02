@@ -1,0 +1,82 @@
+2021-02-03 00:17:26,701 - (conftest:28) - DEBUG - The environment is qa
+2021-02-03 00:17:26,763 - (conftest:16) - INFO - --------------------------
+2021-02-03 00:17:26,763 - (conftest:17) - INFO - Started: test_create_user
+2021-02-03 00:17:26,763 - (conftest:18) - INFO - --------------------------
+2021-02-03 00:17:26,763 - (user_request:18) - INFO - Sending the request to create a user
+2021-02-03 00:17:26,763 - (base_request:34) - DEBUG - Request data: method=post, url=https://gorest.co.in/public-api/users, headers={'Accept': 'application/json', 'Authorization': 'Bearer a2107fb49b3fabc246382016aa04b68b3a12014b7a5fc28b2ae43255cbace256'}
+2021-02-03 00:17:26,779 - (connectionpool:971) - DEBUG - Starting new HTTPS connection (1): gorest.co.in:443
+2021-02-03 00:17:27,586 - (connectionpool:452) - DEBUG - https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+2021-02-03 00:17:27,586 - (base_request:37) - DEBUG - Checking if status code is OK
+2021-02-03 00:17:27,586 - (base_request:46) - INFO - Validating response status code; expected - 201
+2021-02-03 00:17:27,586 - (schema_validator:19) - INFO - Starting to validate actual response body against the schema user
+2021-02-03 00:17:27,586 - (schema_validator:25) - INFO - Done. The JSON is OK
+2021-02-03 00:17:27,601 - (conftest:20) - INFO - --------------------------
+2021-02-03 00:17:27,601 - (conftest:21) - INFO - Finished: test_create_user
+2021-02-03 00:17:27,601 - (conftest:22) - INFO - --------------------------
+2021-02-03 00:17:27,601 - (conftest:16) - INFO - --------------------------
+2021-02-03 00:17:27,601 - (conftest:17) - INFO - Started: test_update_user
+2021-02-03 00:17:27,601 - (conftest:18) - INFO - --------------------------
+2021-02-03 00:17:27,601 - (user_request:18) - INFO - Sending the request to create a user
+2021-02-03 00:17:27,601 - (base_request:34) - DEBUG - Request data: method=post, url=https://gorest.co.in/public-api/users, headers={'Accept': 'application/json', 'Authorization': 'Bearer a2107fb49b3fabc246382016aa04b68b3a12014b7a5fc28b2ae43255cbace256'}
+2021-02-03 00:17:27,601 - (connectionpool:971) - DEBUG - Starting new HTTPS connection (1): gorest.co.in:443
+2021-02-03 00:17:28,386 - (connectionpool:452) - DEBUG - https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+2021-02-03 00:17:28,386 - (base_request:37) - DEBUG - Checking if status code is OK
+2021-02-03 00:17:28,386 - (base_request:46) - INFO - Validating response status code; expected - 201
+2021-02-03 00:17:28,386 - (user_request:29) - INFO - Sending request to update the user with ID=2147
+2021-02-03 00:17:28,386 - (base_request:34) - DEBUG - Request data: method=put, url=https://gorest.co.in/public-api/users/2147, headers={'Accept': 'application/json', 'Authorization': 'Bearer a2107fb49b3fabc246382016aa04b68b3a12014b7a5fc28b2ae43255cbace256'}
+2021-02-03 00:17:28,386 - (connectionpool:971) - DEBUG - Starting new HTTPS connection (1): gorest.co.in:443
+2021-02-03 00:17:29,165 - (connectionpool:452) - DEBUG - https://gorest.co.in:443 "PUT /public-api/users/2147 HTTP/1.1" 200 None
+2021-02-03 00:17:29,165 - (base_request:37) - DEBUG - Checking if status code is OK
+2021-02-03 00:17:29,165 - (base_request:46) - INFO - Validating response status code; expected - 200
+2021-02-03 00:17:29,165 - (schema_validator:19) - INFO - Starting to validate actual response body against the schema user
+2021-02-03 00:17:29,165 - (schema_validator:25) - INFO - Done. The JSON is OK
+2021-02-03 00:17:29,165 - (conftest:20) - INFO - --------------------------
+2021-02-03 00:17:29,165 - (conftest:21) - INFO - Finished: test_update_user
+2021-02-03 00:17:29,165 - (conftest:22) - INFO - --------------------------
+2021-02-03 00:17:29,165 - (conftest:16) - INFO - --------------------------
+2021-02-03 00:17:29,165 - (conftest:17) - INFO - Started: test_delete_user
+2021-02-03 00:17:29,165 - (conftest:18) - INFO - --------------------------
+2021-02-03 00:17:29,181 - (user_request:18) - INFO - Sending the request to create a user
+2021-02-03 00:17:29,181 - (base_request:34) - DEBUG - Request data: method=post, url=https://gorest.co.in/public-api/users, headers={'Accept': 'application/json', 'Authorization': 'Bearer a2107fb49b3fabc246382016aa04b68b3a12014b7a5fc28b2ae43255cbace256'}
+2021-02-03 00:17:29,181 - (connectionpool:971) - DEBUG - Starting new HTTPS connection (1): gorest.co.in:443
+2021-02-03 00:17:29,950 - (connectionpool:452) - DEBUG - https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+2021-02-03 00:17:29,950 - (base_request:37) - DEBUG - Checking if status code is OK
+2021-02-03 00:17:29,950 - (base_request:46) - INFO - Validating response status code; expected - 201
+2021-02-03 00:17:29,950 - (user_request:35) - INFO - Sending request to delete the user with ID=2148
+2021-02-03 00:17:29,950 - (base_request:34) - DEBUG - Request data: method=delete, url=https://gorest.co.in/public-api/users/2148, headers={'Accept': 'application/json', 'Authorization': 'Bearer a2107fb49b3fabc246382016aa04b68b3a12014b7a5fc28b2ae43255cbace256'}
+2021-02-03 00:17:29,966 - (connectionpool:971) - DEBUG - Starting new HTTPS connection (1): gorest.co.in:443
+2021-02-03 00:17:30,735 - (connectionpool:452) - DEBUG - https://gorest.co.in:443 "DELETE /public-api/users/2148 HTTP/1.1" 200 None
+2021-02-03 00:17:30,735 - (base_request:37) - DEBUG - Checking if status code is OK
+2021-02-03 00:17:30,735 - (base_request:46) - INFO - Validating response status code; expected - 204
+2021-02-03 00:17:30,751 - (conftest:20) - INFO - --------------------------
+2021-02-03 00:17:30,751 - (conftest:21) - INFO - Finished: test_delete_user
+2021-02-03 00:17:30,751 - (conftest:22) - INFO - --------------------------
+2021-02-03 00:17:30,889 - (transport:1819) - DEBUG - starting thread (client mode): 0x7a8219a0
+2021-02-03 00:17:30,889 - (transport:1819) - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-02-03 00:17:31,051 - (transport:1819) - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.1
+2021-02-03 00:17:31,051 - (transport:1819) - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2021-02-03 00:17:31,189 - (transport:1819) - DEBUG - kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256'] server key:['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-02-03 00:17:31,204 - (transport:1819) - DEBUG - Kex agreed: curve25519-sha256@libssh.org
+2021-02-03 00:17:31,204 - (transport:1819) - DEBUG - HostKey agreed: ssh-ed25519
+2021-02-03 00:17:31,204 - (transport:1819) - DEBUG - Cipher agreed: aes128-ctr
+2021-02-03 00:17:31,204 - (transport:1819) - DEBUG - MAC agreed: hmac-sha2-256
+2021-02-03 00:17:31,204 - (transport:1819) - DEBUG - Compression agreed: none
+2021-02-03 00:17:31,351 - (transport:1819) - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-02-03 00:17:31,351 - (transport:1819) - DEBUG - Switch to new keys ...
+2021-02-03 00:17:31,351 - (transport:1819) - DEBUG - Adding ssh-ed25519 host key for 34.72.17.106: b'7287bb5440882eb9fec94ea93ff3ab8e'
+2021-02-03 00:17:31,652 - (transport:1819) - DEBUG - userauth is OK
+2021-02-03 00:17:31,805 - (transport:1819) - INFO - Authentication (password) successful!
+2021-02-03 00:17:31,805 - (channel:1212) - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-02-03 00:17:32,452 - (transport:1819) - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-02-03 00:17:32,452 - (transport:1819) - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-02-03 00:17:32,652 - (channel:1212) - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-02-03 00:17:32,652 - (transport:1819) - DEBUG - Secsh channel 0 opened.
+2021-02-03 00:17:32,790 - (channel:1212) - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-02-03 00:17:32,790 - (channel:1212) - DEBUG - [chan 0] EOF sent (0)
+2021-02-03 00:17:32,790 - (channel:1212) - DEBUG - [chan 1] Max packet in: 32768 bytes
+2021-02-03 00:17:32,790 - (channel:1212) - DEBUG - [chan 0] EOF received (0)
+2021-02-03 00:17:32,937 - (channel:1212) - DEBUG - [chan 1] Max packet out: 32768 bytes
+2021-02-03 00:17:32,937 - (transport:1819) - DEBUG - Secsh channel 1 opened.
+2021-02-03 00:17:33,237 - (channel:1212) - DEBUG - [chan 1] Sesch channel 1 request ok
+2021-02-03 00:17:33,684 - (channel:1212) - DEBUG - [chan 1] EOF sent (1)
+2021-02-03 00:17:33,684 - (transport:1819) - DEBUG - EOF in transport thread

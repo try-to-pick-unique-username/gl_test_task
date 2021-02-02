@@ -1,0 +1,18 @@
+qa:
+  host: https://gorest.co.in
+  token: a2107fb49b3fabc246382016aa04b68b3a12014b7a5fc28b2ae43255cbace256
+  ssh_server: 34.72.17.106
+  ssh_user: test_user
+  ssh_password: test_password
+staging:
+  host: https://gorest.co.in
+  token: a2107fb49b3fabc246382016aa04b68b3a12014b7a5fc28b2ae43255cbace256
+  ssh_server: 34.72.17.106
+  ssh_user: test_user
+  ssh_password: test_password
+production:
+  host: https://gorest.co.in
+  token: a2107fb49b3fabc246382016aa04b68b3a12014b7a5fc28b2ae43255cbace256
+  ssh_server: 34.72.17.106
+  ssh_user: test_user
+  ssh_password: test_password

@@ -1,0 +1,8 @@
+PyYAML>=5.4.1
+paramiko>=2.7.2
+scp>=0.13.3
+Faker>=5.8.0
+jsonschema>=3.2.0
+requests>=2.25.1
+pytest>=6.2.2
+allure-pytest>=2.8.32

@@ -5,11 +5,11 @@
 
 **Usage:**
 1. Run tests from project root and under virtual environment
-2. To run tests on different environments use:
-    `pytest --env qa`
-    `pytest --env staging`
-    `pytest --env production`
+2. To run tests on different environments use:  
+    `pytest --env qa`  
+    `pytest --env staging`  
+    `pytest --env production`  
    'qa' environment is default parameter so can be omitted.
-3. To run tests and generate allure report use:
-    `pytest --alluredir={dir}`
-    `allure serve {dir}`
+3. To run tests and generate allure report use:  
+    `pytest --alluredir={dir}`  
+    `allure serve {dir}`  
